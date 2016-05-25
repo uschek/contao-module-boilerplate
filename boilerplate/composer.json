@@ -1,0 +1,30 @@
+{
+    "name": "demo/contao-demo-module",
+    "description": "Contao demo module",
+    "type": "contao-module",
+    "homepage": "https://example.com/demo/contao-demo-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Demo",
+            "email": "demo@example.com",
+            "homepage": "https://example.com"
+        }
+    ],
+    "require": {},
+    "requireDev": {},
+    "autoload": {
+        "psr-4": {
+            "Demo\\DemoModule\\": "src/"
+        }
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "theme": "files/themes/demo-bundle",
+                "templates": "templates/demo-bundle",
+                "contao": "system/modules/demo-bundle"
+            }
+        }
+    }
+}
