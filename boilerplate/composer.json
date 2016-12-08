@@ -23,7 +23,7 @@
             "sources": {
                 "theme": "files/themes/demo-bundle",
                 "templates": "templates/demo-bundle",
-                "contao": "system/modules/demo-bundle"
+                "module": "system/modules/demo-bundle"
             }
         }
     }
